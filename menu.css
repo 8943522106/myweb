@@ -1,0 +1,39 @@
+*{
+    padding:0 ;
+margin: 0;
+list-style:none;
+text-decoration: none;
+
+
+}
+nav{
+height:80px;
+width:100%;
+background-color: #34495e;
+position: fixed;
+
+}
+nav ul{
+float:right;
+margin-right: 40px;
+
+}
+nav li{
+display: inline-block;
+margin: 8px;
+line-height: 80px;
+
+}
+nav a{
+color: white;
+font-size: 18px;
+text-transform: uppercase;
+border:1px solid transparent;
+padding: 7px 10px;
+border-radius: 3px;
+
+}
+a.active,a:hover{
+border:1px solid white;
+transition:.5s;
+}
