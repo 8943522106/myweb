@@ -1,0 +1,381 @@
+.nav ul li a{
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bolder;
+  float: right;
+  text-align: end;
+  /* float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-left: 100px; */
+}
+.nav ul li a:hover{
+  color: #fb9a08;
+  /* background-color: #ddd;
+  color: black; */
+}
+/* .nav ul li a.active {
+  background-color: #04AA6D;
+  color: white;
+} */
+.navbar{
+   position: fixed;
+ width: 100%;
+  z-index: 1;
+  height: 60px; 
+  
+}
+/* .nav-item  .nav-link{
+  padding-left: 1000px;
+  } */
+  .navbar{
+    /* background-color:#047d02; */
+    background-color: rgb(4, 74, 165);
+    /* opacity: 0.8; */
+  }
+  .navbar-nav{
+    padding: 10px;
+  }
+  
+  .list{
+    padding-left: 50px;
+  }
+  .banner-image{
+    background-image: url('https://blog.axway.com/wp-content/uploads/2019/07/GettyImages-1156783188-2.jpgAPI-Mashup-2.jpg');
+    background-size: cover;
+}
+p{
+  text-align: justify;
+}
+
+
+
+
+
+
+/* dogs */
+
+.align{
+  padding-top: 60px;
+}
+
+
+.table1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+ 
+    
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+ 
+
+ 
+  /* overflow: scroll;
+  overflow-x:scroll; */
+ 
+  
+    
+  }
+  
+  .table1 td, .table1 th {
+    border: 1px solid #ddd;
+
+    text-align: center;
+    opacity:0.5px;
+   
+
+  }
+  
+  .table1 tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table1 tr:hover {background-color: #ddd;}
+  
+  .table1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ecdb54 ;
+    color: white;
+    padding: 20px;
+    
+   
+  }
+  #dogimg{
+    margin: 10px;
+    border-radius: 10%;
+  }
+
+
+.head{
+  
+  text-align: center;
+  font-size: 50px;
+}
+
+
+
+
+
+/* users */
+
+.arrange{
+    text-align: center;
+
+    justify-content: center;
+    padding: 10px;
+   
+    display:inline-block;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.2);
+    width:auto; 
+    flex-wrap: wrap;
+    /* margin-left: 210px;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+  margin: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+ 
+
+}
+.arrange .image{
+   top: 0px;
+  height: 250px;
+  padding-bottom: 10px;padding-top: 0px;
+}
+.head1{
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/* products */
+
+
+/* 
+
+
+.products {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+   
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  margin: 30px;
+  margin-top: 10px;
+    
+  }
+  
+  .products td, .products th {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+   
+
+  }
+  
+  .products tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .products tr:hover {background-color: #ddd;}
+  
+  .products th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ecdb54 ;
+    color: white;
+   
+  }
+.head2{
+
+text-align: center;
+        font-size: 50px;
+} */
+
+
+/* disney */
+
+
+
+
+#cards{
+    display: flex;
+    padding: 45px;
+    column-gap: 40px;
+    row-gap: 50px;
+    text-align: justify;
+   
+   
+    flex-wrap: wrap;
+    margin-left: 100px;
+    z-index:-3;
+  
+    
+    
+
+    
+   
+   
+
+}
+.card{
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.2);
+  height: 200px;
+}
+  .card-text{
+    padding: 20px;
+    text-align: justify;
+    overflow: auto;
+    width: 320px;
+    /* height: 300px; */
+    
+
+  }
+ 
+  #img{
+    width: 300px;
+    height: 200px;
+    /* margin: 20px;
+   margin-left: 30px; */
+   margin-left: auto;
+   margin-right:auto ;
+  }
+  .head3{ text-align: center;
+    font-size: 50px;}
+    .btn{
+      background-color:#6060ff;
+      text-align: center;
+    margin-left:88px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+ color: white;
+    }
+    .btn:hover{
+      background-color:#6060ff;
+    }
+
+
+    /* dummyjson */
+   
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      
+      padding: 5px;
+      margin: 30px;
+      width: 200px;
+      height: 200px;
+     
+      
+    }
+    .grid-item {
+      /* background-color: rgb(89, 179, 228); */
+       background: linear-gradient(135deg,rgb(251, 250, 249),rgb(146, 208, 246)); 
+      border: 1px solid rgb(9, 9, 9);
+      /* padding: 20px; */
+      font-size: 30px;
+      text-align: center;
+      margin: 10px;
+      margin-left: 20px;
+      border-radius: 10%;
+      margin-bottom: 10px;
+    }
+    .head4{ text-align: center;
+      font-size: 50px;}
+
+    /* product2 */
+ 
+    .pro .cards{
+      display: flex;
+      padding: 45px;
+      column-gap: 70px;
+      row-gap: 60px;
+      text-align: justify;
+     
+     
+      flex-wrap: wrap;
+      /* margin-left: 100px; */
+      z-index:-3;
+      margin-left: 60px;
+     
+      
+      
+  
+      
+     
+     
+  
+  }
+  .card{
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 450px;
+    
+    
+  }
+  #card-text{
+     
+      text-align: center;
+      padding-top: 10px;
+      overflow: hidden;
+      padding: 10px;
+     
+   
+   
+      
+  
+    } 
+    #price {
+    color: grey;
+    font-size: 22px;
+    text-align: center;
+  
+  
+   
+   
+  
+  
+    
+  }
+  
+   
+  #proimg{
+      width: 300px;
+      height: 200px;
+     
+  
+    }
+    .head6{ text-align: center;
+      font-size: 50px;}
+     
+     
+      .card #btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 400px;
+    position:absolute;
+    
+  }
+  
+  .card #btn:hover {
+    opacity: 0.7;
+  }
+   
+    
